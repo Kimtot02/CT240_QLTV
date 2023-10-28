@@ -47,6 +47,8 @@ public class MainView extends javax.swing.JFrame {
         jMenu2 = new javax.swing.JMenu();
         jMenuItem3 = new javax.swing.JMenuItem();
         jSeparator2 = new javax.swing.JPopupMenu.Separator();
+        jMenuItem7 = new javax.swing.JMenuItem();
+        jMenuItem2 = new javax.swing.JMenuItem();
         jMenuItem4 = new javax.swing.JMenuItem();
         jMenu3 = new javax.swing.JMenu();
         jMenuItem5 = new javax.swing.JMenuItem();
@@ -68,7 +70,7 @@ public class MainView extends javax.swing.JFrame {
 
         jButton2.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Custom-Icon-Design-Flatastic-7-Student-id.32.png"))); // NOI18N
-        jButton2.setText("Sinh viên");
+        jButton2.setText("Người mượn");
         jButton2.setFocusable(false);
         jButton2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton2.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
@@ -117,13 +119,19 @@ public class MainView extends javax.swing.JFrame {
         jMenu2.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
 
         jMenuItem3.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_T, java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        jMenuItem3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Custom-Icon-Design-Flatastic-7-Student-id.16.png"))); // NOI18N
-        jMenuItem3.setText("Quản lý sinh viên");
+        jMenuItem3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Graphicloads-Colorful-Long-Shadow-Book.16.png"))); // NOI18N
+        jMenuItem3.setText("Quản Lý sách");
         jMenu2.add(jMenuItem3);
         jMenu2.add(jSeparator2);
 
+        jMenuItem7.setText("Quản lý loại sách");
+        jMenu2.add(jMenuItem7);
+
+        jMenuItem2.setText("Quản lý phiếu mượn");
+        jMenu2.add(jMenuItem2);
+
         jMenuItem4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Graphicloads-Colorful-Long-Shadow-Book.16.png"))); // NOI18N
-        jMenuItem4.setText("Quản lý sách");
+        jMenuItem4.setText("Quản lý người mượn");
         jMenu2.add(jMenuItem4);
 
         jMenuBar1.add(jMenu2);
@@ -226,10 +234,12 @@ public class MainView extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu3;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItem1;
+    private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JMenuItem jMenuItem3;
     private javax.swing.JMenuItem jMenuItem4;
     private javax.swing.JMenuItem jMenuItem5;
     private javax.swing.JMenuItem jMenuItem6;
+    private javax.swing.JMenuItem jMenuItem7;
     private javax.swing.JMenuItem jMenuItem_Thoat;
     private javax.swing.JPopupMenu.Separator jSeparator1;
     private javax.swing.JPopupMenu.Separator jSeparator2;
